@@ -1,0 +1,48 @@
+body {
+    margin:0;
+}
+
+.container-main { 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url("https://source.unsplash.com/random/1080x1920/?landscape,nature");
+    align-items: center;
+    gap: 20px;
+}
+
+.main-item {
+
+}
+
+.hidden {
+    display:none;
+}
+
+.photo-gallery img {
+    max-width: 1040px;
+    border:solid 0px rgb(116, 116, 116);
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    max-height: 600px;
+}
+
+.weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  box-shadow: 1px 1px black;
+ 
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color:white;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
